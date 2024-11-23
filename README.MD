@@ -1,37 +1,24 @@
 
 # Cálculo da Resolução de um Pluviômetro Automático por báscula
 
+Considere um Pluviômetro tipo copo coletor, com dupla báscula, diâmetro do funil 20cm, a bascula move quando 6 ml caem sobre ela vinda do funil. Vamos encontrar a resolução em mm de chuva para cada movimento da báscula para este diametro.
+
 ## Para calcular a resolução em milímetros de chuva por movimento da báscula do pluviômetro, consideraremos a seguinte abordagem:
 
-* Área do Funil: O funil do pluviômetro possui um diâmetro de 20 cm, então o raio é r=20cm/2= 10 cm. A área AA do funil em centímetros quadrados é dada pela fórmula da área de um círculo:
+Área do Funil: O funil do pluviômetro possui um diâmetro de 20 cm, então o raio é r=20cm/2= 10 cm. A área AA do funil em centímetros quadrados é dada pela fórmula da área de um círculo:
 
+<center>https://raw.githubusercontent.com/mchavesferreira/estacaometerologica/refs/heads/main/imagens/formula1.png</center>
 
 
 Calculando em milímetros quadrados (considerando 1 cm² = 100 mm²), obteremos a área total.
 
-    Volume por Basculamento: Cada movimento da báscula ocorre com a coleta de 6 ml (ou 6000 mm³) de água da chuva.
+Volume por Basculamento: Cada movimento da báscula ocorre com a coleta de 6 ml (ou 6000 mm³) de água da chuva.
 
-    Altura em Milímetros (Resolução): A resolução, ou seja, a altura de chuva em milímetros para cada basculamento, é a relação entre o volume de água e a área do funil, dada por:
+Altura em Milímetros (Resolução): A resolução, ou seja, a altura de chuva em milímetros para cada basculamento, é a relação entre o volume de água e a área do funil, dada por:
    
-Resolução (mm)=Volume (mm3)Área (mm2)
-   
-Resolução (mm)=Área (mm2)Volume (mm3)​
+<center>https://raw.githubusercontent.com/mchavesferreira/estacaometerologica/refs/heads/main/imagens/formula2.png</center>
 
 
-
-### Onde:
-- **Volume**: Volume de água que aciona a báscula (convertido para \( mm^3 \)).
-- **Área**: Área da seção do funil (convertida para \( mm^2 \)).
-
-A área do funil é calculada considerando o diâmetro do funil, pela fórmula:
-
-\[
-A = \pi \times r^2
-\]
-
-Com \( r \) sendo o raio do funil, obtido pelo diâmetro dividido por 2.
-
----
 
 ## Exemplo 1: Funil com 20 cm de diâmetro e báscula de 6 ml
 
