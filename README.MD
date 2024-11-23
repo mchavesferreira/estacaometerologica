@@ -1,17 +1,23 @@
 
-# Cálculo da Resolução de um Pluviômetro
+# Cálculo da Resolução de um Pluviômetro Automático por báscula
 
-Este documento explica como calcular a **resolução em milímetros de chuva** por movimento da báscula de um pluviômetro tipo copo coletor. Também são apresentados exemplos com valores para diferentes configurações do funil e volume de basculamento.
+## Para calcular a resolução em milímetros de chuva por movimento da báscula do pluviômetro, consideraremos a seguinte abordagem:
 
----
+* Área do Funil: O funil do pluviômetro possui um diâmetro de 20 cm, então o raio é r=20cm/2= 10 cm. A área AA do funil em centímetros quadrados é dada pela fórmula da área de um círculo:
 
-## Fórmula Geral
 
-A resolução em milímetros de chuva para cada movimento da báscula é calculada pela fórmula:
 
-\[
-\text{Resolução (mm)} = \frac{\text{Volume (mm}^3\text{)}}{\text{Área (mm}^2\text{)}}
-\]
+Calculando em milímetros quadrados (considerando 1 cm² = 100 mm²), obteremos a área total.
+
+    Volume por Basculamento: Cada movimento da báscula ocorre com a coleta de 6 ml (ou 6000 mm³) de água da chuva.
+
+    Altura em Milímetros (Resolução): A resolução, ou seja, a altura de chuva em milímetros para cada basculamento, é a relação entre o volume de água e a área do funil, dada por:
+   
+Resolução (mm)=Volume (mm3)Área (mm2)
+   
+Resolução (mm)=Área (mm2)Volume (mm3)​
+
+
 
 ### Onde:
 - **Volume**: Volume de água que aciona a báscula (convertido para \( mm^3 \)).
